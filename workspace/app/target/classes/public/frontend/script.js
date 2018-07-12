@@ -10,6 +10,6 @@ var xmlHttp = new XMLHttpRequest();
         }
         document.getElementById('jimbob').innerHTML = htmlToBeAdded;
     }
-    xmlHttp.open("GET", "http://localhost:8080/CarAppApi/webapi/myresource", true); // true for asynchronous 
+    xmlHttp.open("GET", "http://localhost:8080/api/v1/cars", true); // true for asynchronous 
     xmlHttp.send(null);
 
